@@ -1,0 +1,101 @@
+/* Geral */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 21vh auto 40vh;
+    grid-template-areas:
+        "header"
+        "section"
+        "footer";
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+header {
+    grid-area: header;
+    height: auto;
+    background-color: #4682B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header figure {
+    position: relative;
+    left: 10%;
+}
+
+/* Section */
+
+section{
+    padding: 80px;
+    grid-area: section;
+    display: flex;
+    justify-content: center;
+    background-color: #E0E4DF;
+}
+
+.voltar {
+    position: relative;
+    right: 15%;
+    
+}
+
+.voltar button {
+    padding: 15px 32px;
+    border-radius: 12px;
+    background-color: #4682B4;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.voltar button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+section img {
+    width: 250px;
+    display: flex;
+    justify-content: left;
+    border: 2px solid  #4682B4;
+    border-radius: 10px;
+}
+
+.list-info {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.list-info li {
+    font-size: 20pt;
+    color:  #4682B4;
+    padding: 10px;
+    font-weight: bolder;
+
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    font-weight: bolder;
+    color: white;
+}

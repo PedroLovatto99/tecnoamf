@@ -1,0 +1,113 @@
+/* Geral */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 21vh auto 20vh;
+    grid-template-areas:
+        "header"
+        "section"
+        "footer";
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+header {
+
+    grid-area: header;
+    height: auto;
+    background-color: #4682B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header figure {
+    position: relative;
+    left: 10%;
+}
+
+/* Section */
+
+section{
+    padding: 80px;
+    background-color: #E0E4DF;
+}
+
+section h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.voltar {
+    position: relative;
+    bottom: 20%;
+    
+}
+
+.voltar button {
+    padding: 15px 32px;
+    border-radius: 12px;
+    background-color: #4682B4;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.voltar button:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid #4682B4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    
+  }
+  
+  td  {
+    padding: 10px;
+    border: 1px solid gray;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    background-color: white;
+  }
+
+  th {
+    border: 2px #ddd;
+    padding: 1%;
+    padding: 10px;
+    width: 250px;
+    background-color: #4682B4;
+    border: 1px solid black;
+    
+  }
+
+
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    font-weight: bolder;
+    color: white;
+}
+  
