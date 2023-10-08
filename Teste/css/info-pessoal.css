@@ -22,7 +22,7 @@
 header {
     grid-area: header;
     height: auto;
-    background-color: #4682B4;
+    background-color: #0E71BA;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,17 @@ header {
 
 header figure {
     position: relative;
-    left: 10%;
+    left: 5%;
+}
+
+header figure img {
+    width: 75%;
+}
+
+header h1 {
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-size: 30pt;
 }
 
 /* Section */
@@ -52,23 +62,24 @@ section{
 .voltar button {
     padding: 15px 32px;
     border-radius: 12px;
-    background-color: #4682B4;
+    background-color: #0E71BA;
     color: white;
     font-weight: bolder;
+    -webkit-text-stroke: 0.2px black;
     
 }
 
 .voltar button:hover{
     background-color: black;
     color: white;
-    border: 2px solid white;
+    border: 2px solid #0E71BA;
 }
 
 section img {
     width: 250px;
     display: flex;
     justify-content: left;
-    border: 2px solid  #4682B4;
+    border: 2px solid  #0E71BA;
     border-radius: 10px;
 }
 
@@ -79,10 +90,47 @@ section img {
 
 .list-info li {
     font-size: 20pt;
-    color:  #4682B4;
+    color:  #0E71BA;
     padding: 10px;
     font-weight: bolder;
+    -webkit-text-stroke: 0.5px black;
 
+}
+
+.fa-signature {
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #0E71BA;
+    color: white;
+    margin-right: 10px;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.fa-calendar-days {
+    border-radius: 20px;
+    padding: 9px;
+    background-color: #0E71BA;
+    color: white;
+    margin-right: 10px;
+    -webkit-text-stroke: 0.6px black;
+}
+
+.fa-at {
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #0E71BA;
+    color: white;
+    margin-right: 10px;
+    -webkit-text-stroke: 0.6px black;
+}
+
+.fa-id-card {
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #0E71BA;
+    color: white;
+    margin-right: 10px;
+    -webkit-text-stroke: 0.6px black;
 }
 
 /* Footer */

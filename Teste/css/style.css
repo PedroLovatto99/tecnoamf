@@ -23,15 +23,25 @@
 header {
     grid-area: header;
     height: auto;
-    background-color: #4682B4;
+    background-color: #0E71BA;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+header h1 {
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-size: 30pt;
+}
+
 header figure {
     position: relative;
-    left: 10%;
+    left: 5%;
+}
+
+header figure img {
+    width: 75%;
 }
 
 /* Section */
@@ -42,12 +52,11 @@ section{
     display: flex;
     justify-content: space-around;
     background-color: #E0E4DF;
-
 }
 
 
 .card {
-    border: 2px solid gray;
+    border: 2px solid black;
     text-align: center;
     background-color: #E0E4DF;
     width: 45%;
@@ -61,12 +70,14 @@ section{
     display: block;
     width: 100%;
     height: 18rem;
+   
 }
 
 .card h4 {
     padding: 20px;
     color: white;
-    background-color: #4682B4;    
+    background-color: #0E71BA;
+    -webkit-text-stroke: 0.5px black;
 }
 
 
@@ -113,6 +124,7 @@ header h1 {
     text-align: left;
     font-size: 20pt;
     text-align: center;
+
 }
 
 header figure {
@@ -156,7 +168,5 @@ section{
     color: white;
     background-color: #4682B4;    
 }
-
-
 
 }
